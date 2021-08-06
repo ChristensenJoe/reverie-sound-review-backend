@@ -1,16 +1,424 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "username": "username",
+      "hashedPassword": "e634c94f5142a717f9dbbd8710388242b546059045684ff788dfbdac3a51089a",
+      "saltPassword": "312311",
+      "profileImage": "https://iso.500px.com/wp-content/uploads/2015/03/business_cover.jpeg"
+    },
+    {
+      "username": "testUser",
+      "hashedPassword": "2970df6816a6c4a4591873e2f3c3366f00157778a9c6ca0c9128ab1a3c5c2f91",
+      "saltPassword": "lq2gpDWAUGCbS35mWD5q2XvYHvy1GbPZ",
+      "profileImage": "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png",
+      "id": 2
+    },
+    {
+      "username": "username",
+      "hashedPassword": "4efb260fa5c826cc10833b3afa6d5b71ee78e197dd51c63959f6938e46e84a76",
+      "saltPassword": "zXZzo0s6FsBK1VwKff2HXd1Wm91uiy2A",
+      "profileImage": "",
+      "id": 3
+    },
+    {
+      "username": "JohnRon",
+      "hashedPassword": "085e5fd4f74d4245f88e46b844cde971d2d0bec7dc9a9fe2e7b1106b5246eef5",
+      "saltPassword": "rL44sq4WZkcrDeGZaggAL4ifp7n3OOvH",
+      "profileImage": "",
+      "id": 4
+    },
+    {
+      "username": "test",
+      "hashedPassword": "5add826ff6673ff193bfcbd592adbfc4b29a33163a531ae80d30da6da3e3f414",
+      "saltPassword": "94nNKZjOkApUZeA1UHOX2W12gK5bxLfv",
+      "profileImage": "",
+      "id": 5
+    },
+    {
+      "username": "newUser",
+      "hashedPassword": "09eed7edfbfc886b386085977d1fa3d335cee737a909034a23a9efa4c4271f96",
+      "saltPassword": "EK8CtaRrBljuV28wMBF1jZL0b8PknUZC",
+      "profileImage": "",
+      "id": 6
+    },
+    {
+      "username": "Anotheruser",
+      "hashedPassword": "885652d12e71412f35a43c1dbb814e20e8226b1e6aa15543844decfea70bea29",
+      "saltPassword": "QcyqHk9U9RBDc7uVmMGhO3KVfAXXLKFo",
+      "profileImage": "",
+      "id": 7
     }
   ],
-  "comments" : [
+  "posts": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "author": "Jim Henson",
+      "title": "Muppets in Music",
+      "content": "Post Contents"
+    },
+    {
+      "id": 2,
+      "author": "Jim Henson",
+      "title": "Muppets in Music",
+      "content": "Post Contents"
+    },
+    {
+      "id": 3,
+      "author": "Jim Henson",
+      "title": "Muppets in Music",
+      "content": "Post Contents"
+    },
+    {
+      "id": 4,
+      "author": "Jim Henson",
+      "title": "Muppets in Music",
+      "content": "Post Contents"
+    },
+    {
+      "id": 5,
+      "author": "Jim Henson",
+      "title": "Muppets in Music",
+      "content": "Post Contents"
+    },
+    {
+      "id": 6,
+      "author": "Jim Henson",
+      "title": "Muppets in Music",
+      "content": "Post Contents"
+    },
+    {
+      "id": 7,
+      "author": "Jim Henson",
+      "title": "Muppets in Music",
+      "content": "Post Contents"
+    },
+    {
+      "id": 8,
+      "author": "Jim Henson",
+      "title": "Muppets in Music",
+      "content": "Post Contents"
+    },
+    {
+      "id": 9,
+      "author": "Jim Henson",
+      "title": "Muppets in Music",
+      "content": "Post Contents"
+    },
+    {
+      "id": 10,
+      "author": "Jim Henson",
+      "title": "Muppets in Music",
+      "content": "Post Contents"
+    },
+    {
+      "id": 11,
+      "author": "Jim Henson",
+      "title": "Muppets in Music",
+      "content": "Post Contents"
+    },
+    {
+      "id": 12,
+      "author": "Jim Henson",
+      "title": "Muppets in Music",
+      "content": "Post Contents"
+    },
+    {
+      "id": 13,
+      "author": "Jim Henson",
+      "title": "Muppets in Music",
+      "content": "Post Contents"
+    },
+    {
+      "title": "Hello",
+      "content": "Hihihihihih",
+      "user": null,
+      "id": 14
+    },
+    {
+      "title": "Hello",
+      "content": "Hihihihihih",
+      "user": null,
+      "id": 15
+    },
+    {
+      "title": "Lolol",
+      "content": "Lolol",
+      "user": "test",
+      "id": 16
+    },
+    {
+      "title": "Lolol",
+      "content": "Lolol",
+      "author": "test",
+      "id": 17
+    },
+    {
+      "title": "John",
+      "content": "Hello",
+      "author": "username",
+      "id": 18
+    },
+    {
+      "title": "John",
+      "content": "Hello",
+      "author": "username",
+      "id": 19
+    },
+    {
+      "title": "Joe",
+      "content": "Hello\n",
+      "author": "JohnRon",
+      "id": 20
+    },
+    {
+      "title": "An Introduction to Our Dynamic Planet",
+      "content": "Things",
+      "author": "testUser",
+      "id": 21
+    },
+    {
+      "title": "An Introduction to Our Dynamic Planet",
+      "content": "Things",
+      "author": "testUser",
+      "id": 22
+    },
+    {
+      "title": "Music Review",
+      "content": "This is a music review.",
+      "author": "testUser",
+      "id": 23
+    },
+    {
+      "title": "Joe",
+      "content": "Hello",
+      "author": "test",
+      "id": 24
+    },
+    {
+      "title": "Hi",
+      "content": "hi",
+      "author": "test",
+      "id": 25
+    },
+    {
+      "title": "Hi",
+      "content": "hi",
+      "author": "test",
+      "id": 26
+    }
+  ],
+  "articlecomments": [
+    {
+      "id": 1,
+      "postId": "https://amp.theguardian.com/music/2021/jul/27/simon-rattle-i-always-avoided-jingoistic-last-night-of-the-proms",
+      "author": "Jim Henson",
+      "profileImage": "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png",
+      "content": "Post Contents",
+      "likes": 18,
+      "dislikes": 21,
+      "likedUsers": [
+        "user",
+        "newUser",
+        "Anotheruser"
+      ],
+      "dislikedUsers": [
+        "testUser"
+      ],
+      "disliked": 21
+    },
+    {
+      "id": 2,
+      "postId": "https://amp.theguardian.com/music/2021/jul/27/simon-rattle-i-always-avoided-jingoistic-last-night-of-the-proms",
+      "author": "James May",
+      "profileImage": "",
+      "content": "Other post",
+      "likes": 14,
+      "dislikes": 21,
+      "likedUsers": [
+        "user",
+        "newUser",
+        "Anotheruser"
+      ],
+      "dislikedUsers": [
+        "testUser"
+      ],
+      "disliked": 22
+    },
+    {
+      "id": 3,
+      "postId": 13,
+      "author": "Christoper",
+      "profileImage": "",
+      "content": "Starter",
+      "likes": 12,
+      "dislikes": 21,
+      "likedUsers": [
+        "testUser",
+        "user"
+      ],
+      "dislikedUsers": []
+    },
+    {
+      "id": 4,
+      "postId": "https://amp.theguardian.com/music/2021/jul/27/simon-rattle-i-always-avoided-jingoistic-last-night-of-the-proms",
+      "author": "Christoper",
+      "profileImage": "",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "likes": 12,
+      "dislikes": 21,
+      "likedUsers": [
+        "user"
+      ],
+      "dislikedUsers": [
+        "testUser"
+      ],
+      "disliked": 22
+    },
+    {
+      "postId": "https://amp.theguardian.com/music/2021/jul/27/simon-rattle-i-always-avoided-jingoistic-last-night-of-the-proms",
+      "author": "testUser",
+      "profileImage": "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png",
+      "content": "Something new",
+      "likes": 0,
+      "dislikes": 1,
+      "likedUsers": [],
+      "dislikedUsers": [
+        "testUser"
+      ],
+      "id": 5,
+      "disliked": 1
+    },
+    {
+      "postId": "https://amp.theguardian.com/music/2021/jul/27/simon-rattle-i-always-avoided-jingoistic-last-night-of-the-proms",
+      "author": "testUser",
+      "profileImage": "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png",
+      "content": "A new comment",
+      "likes": 1,
+      "dislikes": 1,
+      "likedUsers": [
+        "newUser"
+      ],
+      "dislikedUsers": [
+        "testUser"
+      ],
+      "id": 6,
+      "disliked": 1
+    },
+    {
+      "postId": "https://amp.theguardian.com/music/2021/jul/27/simon-rattle-i-always-avoided-jingoistic-last-night-of-the-proms",
+      "author": "testUser",
+      "profileImage": "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png",
+      "content": "A new comment",
+      "likes": 0,
+      "dislikes": 2,
+      "likedUsers": [],
+      "dislikedUsers": [
+        "testUser",
+        "newUser"
+      ],
+      "id": 7
+    },
+    {
+      "postId": "https://amp.theguardian.com/music/2021/jul/27/simon-rattle-i-always-avoided-jingoistic-last-night-of-the-proms",
+      "author": "testUser",
+      "profileImage": "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png",
+      "content": "Test",
+      "likes": 2,
+      "dislikes": 0,
+      "likedUsers": [
+        "testUser",
+        "newUser"
+      ],
+      "dislikedUsers": [],
+      "id": 8
+    },
+    {
+      "postId": "https://amp.theguardian.com/music/2021/jul/27/simon-rattle-i-always-avoided-jingoistic-last-night-of-the-proms",
+      "author": "testUser",
+      "profileImage": "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png",
+      "content": "Another test",
+      "likes": 1,
+      "dislikes": 1,
+      "likedUsers": [
+        "testUser"
+      ],
+      "dislikedUsers": [
+        "newUser"
+      ],
+      "id": 9,
+      "disliked": 1
+    },
+    {
+      "postId": "https://amp.theguardian.com/music/2021/jul/08/chopin-complete-nocturnes-review-alain-planes",
+      "author": "testUser",
+      "profileImage": "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png",
+      "content": "This is a comment\n",
+      "likes": 0,
+      "dislikes": 0,
+      "likedUsers": [],
+      "dislikedUsers": [],
+      "id": 10
+    }
+  ],
+  "postcomments": [
+    {
+      "id": 1,
+      "postId": 12,
+      "author": "Jim Henson",
+      "profileImage": "https://iso.500px.com/wp-content/uploads/2015/03/business_cover.jpeg",
+      "content": "Post Contents",
+      "likes": 12,
+      "dislikes": 21,
+      "likedUsers": [
+        "testUser",
+        "user"
+      ],
+      "dislikedUsers": []
+    },
+    {
+      "postId": 14,
+      "author": "testUser",
+      "profileImage": "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png",
+      "content": "This is a comment",
+      "likes": 0,
+      "dislikes": 0,
+      "likedUsers": [],
+      "dislikedUsers": [],
+      "id": 2
+    },
+    {
+      "postId": 14,
+      "author": "testUser",
+      "profileImage": "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png",
+      "content": "Comment\n",
+      "likes": 0,
+      "dislikes": 0,
+      "likedUsers": [],
+      "dislikedUsers": [],
+      "id": 3
+    },
+    {
+      "postId": 15,
+      "author": "testUser",
+      "profileImage": "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png",
+      "content": "Other test",
+      "likes": 0,
+      "dislikes": 0,
+      "likedUsers": [],
+      "dislikedUsers": [],
+      "id": 4
+    },
+    {
+      "postId": 1,
+      "author": "testUser",
+      "profileImage": "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png",
+      "content": "I LOve muppets\n",
+      "likes": 0,
+      "dislikes": 0,
+      "likedUsers": [],
+      "dislikedUsers": [],
+      "id": 5
     }
   ]
 }
