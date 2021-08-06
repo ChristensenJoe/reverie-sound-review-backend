@@ -164,48 +164,6 @@
       "content": "Hello",
       "author": "username",
       "id": 19
-    },
-    {
-      "title": "Joe",
-      "content": "Hello\n",
-      "author": "JohnRon",
-      "id": 20
-    },
-    {
-      "title": "An Introduction to Our Dynamic Planet",
-      "content": "Things",
-      "author": "testUser",
-      "id": 21
-    },
-    {
-      "title": "An Introduction to Our Dynamic Planet",
-      "content": "Things",
-      "author": "testUser",
-      "id": 22
-    },
-    {
-      "title": "Music Review",
-      "content": "This is a music review.",
-      "author": "testUser",
-      "id": 23
-    },
-    {
-      "title": "Joe",
-      "content": "Hello",
-      "author": "test",
-      "id": 24
-    },
-    {
-      "title": "Hi",
-      "content": "hi",
-      "author": "test",
-      "id": 25
-    },
-    {
-      "title": "Hi",
-      "content": "hi",
-      "author": "test",
-      "id": 26
     }
   ],
   "articles": [
